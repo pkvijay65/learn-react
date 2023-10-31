@@ -1,0 +1,23 @@
+{
+  "name": "react-practise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkvijay65/learn-react.git"
+  },
+  "keywords": [
+    "react",
+    "js"
+  ],
+  "author": "Prateek Vijay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkvijay65/learn-react/issues"
+  },
+  "homepage": "https://github.com/pkvijay65/learn-react#readme"
+}
