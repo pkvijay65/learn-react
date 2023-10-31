@@ -21,7 +21,7 @@
    - Explored the `node_modules` folder containing transitive dependencies.
    - Learned why `node_modules` should be added to `.gitignore`.
    - Understood the advantages of getting React from npm rather than using CDN links.
-    
+
       **Adding Modules in Script Tags (HTML)**
         - In HTML, when using modules (e.g., JavaScript modules), you need to specify the `type` attribute in the script tag as `type="module"`. This tells the browser that the script file should be treated as an ES6 module, allowing you to use the `import` and `export` syntax.
 
@@ -49,6 +49,21 @@
    - Learned about configuring browsers in `browserlist` for compatibility.
    - Command for installing Parcel as a dev dependency: `npm install -D parcel`.
 
+9. **Scripts**
+    - In the context of `package.json`, "scripts" refer to custom commands or tasks that can be executed using npm or yarn. These scripts are defined in the "scripts" section of the `package.json` file.
+    - Common scripts include "start" for launching the development server, "build" for creating a production build, and user-defined scripts for specific project tasks.
+
+10. **JSX**
+    -  JSX allows you to write HTML-like tags in JavaScript code, primarily used in React for creating user interface elements.
+
+11. **Babel**
+    -Babel is a JavaScript compiler that transforms modern JavaScript code (ES6+ syntax) into older versions (ES5) to ensure compatibility with older browsers.
+    - 
+
+12. **React Component**
+    - In React, a component is a reusable and self-contained building block for user interfaces. It can be a class component or a functional component.
+    - Component Composition is the practice of combining smaller components to build more complex user interfaces
+
 ## Trivia
 
 1. **Package Versioning (`^` and `~`)**
@@ -59,3 +74,5 @@
    
 2. **Package.json vs. Package-lock.json**
    - Understood the difference between `package.json` and `package-lock.json`, with `package-lock.json` containing precise dependency versions and hashes for deployment.
+3. **CrossOrigin Attcks**
+    -
